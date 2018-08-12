@@ -1,0 +1,113 @@
+.backgroundimage {
+    background: url(/assets/images/light-grey-terrazzo/light-grey-terrazzo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+.whitebar {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.whitebarcontainer {
+    width: 960px;
+    margin: 0 auto;
+}
+a {
+    padding: 24.8px;
+    background-color: #ffffff;
+    color: #cccccc; 
+}
+.topnav a {
+    float: right;
+    background-color: #ffffff;
+    text-align: center;
+}
+.topnav a:hover {
+    background-color: black;
+    color: #ffffff; 
+}
+.h2 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+    width: 336px;
+    display: inline-block;
+}
+
+.divwidth {
+    width: 960px;
+    margin: 25px auto;
+    border: 1px solid grey;
+}
+.div-body {
+    background-color: #ffffff;
+}
+#contact {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    padding: 20px;
+    margin: 0px;
+}
+.hr-1 {
+    width: 920px;
+    background-color: #666666;
+}
+form {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+input {
+    padding: 5px;
+    color: #777777
+}
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 20px;
+}
+.hr-2 {
+    padding: 2px 20px 2px 20px;
+    width: 100%;
+    background-color: #4aaaa5;
+    margin: 0px;
+    border: 0px;
+    position: fixed; bottom: 33.6px;
+}
+footer {
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    margin: 0px;
+    font-size: 12px;
+    position: fixed; bottom: 0px;
+}
+@media only screen and (min-width: 992px) {
+    .divwidth {
+        max-width: 960px;
+    }
+    form {
+        max-width: 960px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .divwidth {
+        max-width: 720px;
+    }
+    form {
+        max-width: 720px;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .divwidth {
+        max-width: 540px;
+    }
+    form {
+        max-width: 540px;
+    }
+}
